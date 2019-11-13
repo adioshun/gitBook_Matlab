@@ -16,13 +16,4 @@ Octave
 	- https://www.tutorialspoint.com/matlab/try_matlab.php
 
 
-- 도움말 
-	- `doc mean`
-	- 함수 도움말 : `mean(`....대기 
-	- 명령창 : `help mean`
 
-## 유용한 명령어 
-
-
-- `;` 출력값 표시 차단, 입력시 화면에 출력 없이 실행 
-- 긴 명령문 입력 마침표 3개  `'''`  vs. python `\`
