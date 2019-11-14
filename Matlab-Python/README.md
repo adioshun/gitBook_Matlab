@@ -163,7 +163,7 @@ From matlab
 
 ```
 
-> 2D, 3D 적용을 위해서 좀더 살펴 보기 
+> 2D, 3D 적용을 위해서 [링크](https://stackoverflow.com/questions/34155829/how-to-efficiently-convert-matlab-engine-arrays-to-numpy-ndarray) 좀더 살펴 보기 
 
 
 ---
