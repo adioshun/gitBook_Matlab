@@ -132,6 +132,39 @@ print(a)
 
 
 
+#### [How to efficiently convert Matlab engine arrays to numpy ndarray?](https://stackoverflow.com/questions/34155829/how-to-efficiently-convert-matlab-engine-arrays-to-numpy-ndarray)
+
+
+```python 
+import timeit
+setup_range = ("import numpy as np\n"
+               "x = range(1000)")
+setup_arange = ("import numpy as np\n"
+                "x = np.arange(1000)")
+setup_matlab = ("import numpy as np\n"
+                "import matlab.engine\n"
+                "eng = matlab.engine.start_matlab()\n"
+                "x = eng.linspace(0., 1000.-1., 1000.)")
+print 'From other array'
+print timeit.timeit('np.array(x)', setup=setup_arange, number=1000)
+print 'From list'
+print timeit.timeit('np.array(x)', setup=setup_range, number=1000)
+print 'From matlab'
+print timeit.timeit('np.array(x)', setup=setup_matlab, number=1000)
+
+"""
+From other array
+0.00150722111994
+From list
+0.0705359556928
+From matlab
+7.0873282467
+"""
+
+```
+
+> 2D, 3D 적용을 위해서 좀더 살펴 보기 
+
 
 ---
 
