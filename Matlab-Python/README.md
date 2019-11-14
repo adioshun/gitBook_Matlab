@@ -85,9 +85,7 @@ $ sudo python setup.py install --user
 도움말 출력 : `eng.doc("plot",nargout=0)` OR `eng.help("erf",nargout=0)`
 도움말 찾기 : `eng.docsearch("plot",nargout=0)`
 
-#### 스크립트 내 함수 사용 (eg. triarea.m)
 
-- 동일 폴더내 파일(triarea.m) 존재시 별도 import 동작 없이 사용 가능 
 
 
 #### [값 공유](https://kr.mathworks.com/help/matlab/matlab_external/use-the-matlab-engine-workspace-in-python.html)
