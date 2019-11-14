@@ -6,7 +6,8 @@
 ```python 
 
 import matlab.engine
-import io
+import io #python 3
+#import StringIO #python 2
 from IPython.core.magic import register_cell_magic
 ip = get_ipython()
 
