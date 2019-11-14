@@ -14,4 +14,16 @@
 * [조건-반복문](Fundamental/For-IF-ELSE.md)
 * [도표그리기](Fundamental/Plot.md)
 * [이미지처리](Fundamental/Image.md)
+* [라이브스크립](Fundamental/Live-Script.md)
+
+
+
+## Octave 
+
+* [README](Octave/README.md)
+
+
+## pyMatlab
+
+* [README](Matlab-Python/README.md)
 
