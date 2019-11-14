@@ -29,7 +29,11 @@ import matlab.engine
 #Start MATLAB 
 eng = matlab.engine.start_matlab()
 
-...
+#Run MATLAB Function 
+tf = eng.isprime(37, nargout=1) 
+#[중요] 출력 인자 수를 `nartout`으로 지정 하여야 함 
+print(tf)
+
 
 #Stop MATLAB
 eng.quit()
