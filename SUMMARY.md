@@ -27,4 +27,4 @@
 ## pyMatlab
 
 * [README](Matlab-Python/README.md)
-
+* [Jupyter](Matlab-Python/Jupyter.md)
