@@ -10,10 +10,12 @@
 	- [자기 주도형 교육 과정](https://matlabacademy.mathworks.com/kr)
 	- [MATLAB 시작하기](https://kr.mathworks.com/help/matlab/getting-started-with-matlab.html)
 
-Octave 
-- Online 
-	- https://octave-online.net/
-	- https://www.tutorialspoint.com/matlab/try_matlab.php
 
 
+- 메뉴얼 : [라이브 스크립트 및 라이브 함수](https://kr.mathworks.com/help/matlab/live-scripts-and-functions.html?s_tid=CRUX_lftnav)
 
+- 코드 공유 
+
+	- [MATLAB code share](https://kr.mathworks.com/matlabcentral/fileexchange?q=tag:)
+
+	- [Live Script Gallery](https://kr.mathworks.com/products/matlab/live-script-gallery.html)
