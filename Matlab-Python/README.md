@@ -96,6 +96,9 @@ $ sudo python setup.py install --user
     #OR
     eng = matlab.engine.start_matlab()
     mat_file = eng.load('data.mat')
+    
+    
+    result = mat_file.values()
     ```
 
 #### [값 공유](https://kr.mathworks.com/help/matlab/matlab_external/use-the-matlab-engine-workspace-in-python.html)
