@@ -1,7 +1,4 @@
-- 도움말 
-	- `doc mean`
-	- 함수 도움말 : `mean(`....대기 
-	- 명령창 : `help mean`
+
 
 ## 유용한 명령어 
 
@@ -15,8 +12,6 @@
 - 생성 : edit {파일명} `edit mysphere`
 - 주석 : `$`
 - 실행 : 파일명 
-
-> 쥬피터 스타일 코딩 : 라이브 코드 파일(`*.mlx`) [[참고]](https://kr.mathworks.com/help/matlab/learn_matlab/scripts.html)
 
 
 ## 작업 공간 변수
