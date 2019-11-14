@@ -119,6 +119,16 @@ print(a)
 > [로컬 컴퓨터에서 이미 실행 중인 공유 MATLAB® 세션에 Python®용 MATLAB 엔진을 연결](https://kr.mathworks.com/help/matlab/matlab_external/connect-python-to-running-matlab-session.html)
 
 
+#### Numpy to MATLAB data
+
+```python 
+def npArray2Matlab(x):
+    return matlab.double(x.tolist())
+```
+
+
+---
+
 ## 2. Compiled Python Package
 
 
@@ -135,15 +145,3 @@ in Python
 import `생성된 패키지 명`
 
 ```
-
-
-
-
-
----
-
-
-
-# MATLAB + Python 
-
-
