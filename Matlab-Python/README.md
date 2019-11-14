@@ -81,12 +81,18 @@ $ sudo python setup.py install --user
 
 #### 도움말 
 
-도우말 창 : `eng.doc(nargout=0)`
-도움말 출력 : `eng.doc("plot",nargout=0)` OR `eng.help("erf",nargout=0)`
-도움말 찾기 : `eng.docsearch("plot",nargout=0)`
+- 도울말 창 : `eng.doc(nargout=0)`
+- 도움말 출력 : `eng.doc("plot",nargout=0)` OR `eng.help("erf",nargout=0)`
+- 도움말 찾기 : `eng.docsearch("plot",nargout=0)`
 
 
+### mat파일 읽기 
 
+    ```python 
+    from scipy import io
+    
+    mat_file = io.loadmat('data.mat')
+    ```
 
 #### [값 공유](https://kr.mathworks.com/help/matlab/matlab_external/use-the-matlab-engine-workspace-in-python.html)
 
