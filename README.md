@@ -6,6 +6,10 @@
 
 - [jupyter](https://github.com/Calysto/matlab_kernel) : `pip install matlab_kernel --user`
 
+- [라이브 스크립트 및 라이브 함수](https://kr.mathworks.com/help/matlab/live-scripts-and-functions.html?s_tid=CRUX_lftnav)
+
+
+
 - 교육 
 	- https://kr.mathworks.com/support/learn-with-matlab-tutorials.html?s_tid=tah_po_tutorials_skku
 	- https://kr.mathworks.com/learn/tutorials/matlab-onramp.html
@@ -14,7 +18,7 @@
 
 
 
-- 메뉴얼 : [라이브 스크립트 및 라이브 함수](https://kr.mathworks.com/help/matlab/live-scripts-and-functions.html?s_tid=CRUX_lftnav)
+
 
 - 코드 공유 
 
