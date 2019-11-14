@@ -9,6 +9,7 @@
 ## 기초 
 
 * [README](Fundamental/README.md)
+* [명령어](Fundamental/Commands.md)
 * [배열](Fundamental/Array.md)
 * [함수](Fundamental/Function.md)
 * [조건-반복문](Fundamental/For-IF-ELSE.md)
