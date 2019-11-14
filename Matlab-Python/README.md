@@ -92,6 +92,10 @@ $ sudo python setup.py install --user
     from scipy import io
     
     mat_file = io.loadmat('data.mat')
+    
+    #OR
+    eng = matlab.engine.start_matlab()
+    mat_file = eng.load('data.mat')
     ```
 
 #### [값 공유](https://kr.mathworks.com/help/matlab/matlab_external/use-the-matlab-engine-workspace-in-python.html)
