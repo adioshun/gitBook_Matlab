@@ -44,7 +44,16 @@ $ sudo python setup.py install --user
     print(b, b.size)
     
     # 단, MATLAB 결과물은 바로 사용 가능 
+    
     ```
+    
+    ```python 
+    def npArray2Matlab(x):
+        return matlab.double(x.tolist())
+    ```
+
+
+
     
     > [조심] [Python 데이터형과 MATLAB 스칼라 유형 간의 변환 규칙](https://kr.mathworks.com/help/matlab/matlab_external/pass-data-to-matlab-from-python.html), [MATLAB 스칼라 유형과 Python 데이터형 간 매핑](https://kr.mathworks.com/help/matlab/matlab_external/handle-data-returned-from-matlab-to-python.html)
     
@@ -122,12 +131,6 @@ print(a)
 > [로컬 컴퓨터에서 이미 실행 중인 공유 MATLAB® 세션에 Python®용 MATLAB 엔진을 연결](https://kr.mathworks.com/help/matlab/matlab_external/connect-python-to-running-matlab-session.html)
 
 
-#### Numpy to MATLAB data
-
-```python 
-def npArray2Matlab(x):
-    return matlab.double(x.tolist())
-```
 
 
 ---
